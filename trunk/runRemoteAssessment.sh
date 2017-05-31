@@ -10,7 +10,10 @@ function localRequest
 
 function remoteRequest
 {
-	make runAllBenchmarkHPC
+	rm ../resource/statistic/*
+
+	nohup make runAllBenchmarkHPC &
+#	make runAllBenchmarkHPC
 }
 
 
@@ -40,7 +43,7 @@ function sendRequest
 	git pull
 	git push $git_protocol://$git_uname:$git_pwd@$git_url
 
-	echo; echo; echo; echo; echo; echo; echo; echo; 
+	echo; echo; echo; echo; echo; echo; echo; echo;
 	echo "-----------------------------"
 	echo "Start the remote execution"
 	echo "-----------------------------"
@@ -59,7 +62,6 @@ function processRemoteRequest
 {
 	source ~/.bashrc
 	cd ${remote_pathRun}
-	rm ../resource/statistic/*
 	make mrproper
 	git pull
 	remoteRequest
