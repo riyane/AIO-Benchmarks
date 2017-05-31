@@ -27,8 +27,12 @@
 	</parameterset>
 
 	<parameterset name="parameter_variableDim">
-		<parameter	name="computeTime"		type="float">		0.0001, 1.45, 5							</parameter>
-		<parameter	name="nbIoDevice">							1, 2, 3, 4								</parameter>
+		<parameter	name="computeTime"		type="float">		0.00000001, 0.0000001, 0.0000002, 0.0000004, 0.0000006, 0.0000008, 
+																0.000001, 0.000002, 0.000004, 0.000006, 0.000008,
+																0.00001,
+																0.00003, 0.00006, 0.00008, 0.0001, 0.0003, 0.0006, 0.0008,
+																1, 2, 3, 4, 5							</parameter>
+		<parameter	name="nbIoDevice">							1										</parameter>
 	</parameterset>
 
 

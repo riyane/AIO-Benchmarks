@@ -279,4 +279,4 @@ cleanJube							:
 
 
 mrproper							: clean cleanJube
-									rm -rf $(EXEC_UNIX) $(EXEC_WINDOWS) $(RESOURCE_DOC)/* $(RESOURCE_IO)/* ./libwinpthread-1.dll #$(RESOURCE_STAT)/*
+									rm -rf $(EXEC_UNIX) $(EXEC_WINDOWS) $(RESOURCE_DOC)/* $(RESOURCE_IO)/* ./libwinpthread-1.dll scorep-* #$(RESOURCE_STAT)/*

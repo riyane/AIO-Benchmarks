@@ -4,13 +4,13 @@
 
 function localRequest
 {
-	make plotWriteTime
+	make plotPointCompareHPC
 }
 
 
 function remoteRequest
 {
-	make runWriteTimeBenchmark
+	make runAllBenchmarkHPC
 }
 
 
