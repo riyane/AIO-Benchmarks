@@ -27,7 +27,7 @@ git_protocol=https
 git_uname=riyane
 git_pwd=bidonB1
 
-remote_path=~/AIO-Benchmarks
+remote_path="~"/AIO-Benchmarks
 remote_pathResult=${remote_path}/resource/statistic/
 remote_pathRun=${remote_path}/trunk/
 local_pathResult=../resource/statistic/
@@ -51,7 +51,7 @@ function sendRequest
 	echo "-----------------------------"
 	echo "End the remote execution"
 	echo "-----------------------------"
-	scp ${ssh_remote_id}@${ssh_remote_domain}:~/${remote_pathResult}/* ${local_pathResult}
+	scp ${ssh_remote_id}@${ssh_remote_domain}:${remote_pathResult}/* ${local_pathResult}
 	localRequest
 }
 
