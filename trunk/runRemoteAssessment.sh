@@ -57,7 +57,7 @@ function processRemoteRequest
 	git pull
 	source ~/.bashrc
 	make mrproper
-	remoteRequest
+#	remoteRequest
 }
 
 
