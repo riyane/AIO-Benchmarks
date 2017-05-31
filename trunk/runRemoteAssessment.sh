@@ -46,7 +46,7 @@ function sendRequest
 	echo "Start the remote execution"
 	echo "-----------------------------"
 	ssh ${ssh_remote_id}@${ssh_remote_domain} #"bash -s" -- < ${0} "remote"
-${0} "remote"
+ssh ${ssh_remote_id}@${ssh_remote_domain} -- < ${0} "remote"
 #	scp ${ssh_remote_id}@${ssh_remote_domain}:~/${remote_pathResult}/* ${local_pathResult}
 #	localRequest
 }
