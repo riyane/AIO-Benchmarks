@@ -57,11 +57,11 @@ function sendRequest
 
 function processRemoteRequest
 {
-	cd ${remote_pathRun}
-	git pull
-	rm ../resource/statistic/*
 	source ~/.bashrc
+	cd ${remote_pathRun}
+	rm ../resource/statistic/*
 	make mrproper
+	git pull
 	remoteRequest
 }
 
