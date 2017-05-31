@@ -46,8 +46,13 @@ function sendRequest
 	echo "Start the remote execution"
 	echo "-----------------------------"
 	ssh ${ssh_remote_id}@${ssh_remote_domain} "bash -s -l" -- < ${0} "remote"
-#	scp ${ssh_remote_id}@${ssh_remote_domain}:~/${remote_pathResult}/* ${local_pathResult}
-#	localRequest
+	scp ${ssh_remote_id}@${ssh_remote_domain}:~/${remote_pathResult}/* ${local_pathResult}
+
+	echo; echo; echo; echo; echo; echo; echo; echo; 
+	echo "-----------------------------"
+	echo "End the remote execution"
+	echo "-----------------------------"
+	localRequest
 }
 
 
@@ -57,8 +62,7 @@ function processRemoteRequest
 	git pull
 	source ~/.bashrc
 	make mrproper
-make posixGlibcIO_sleep; ./posixGlibcIO_sleep
-#	remoteRequest
+	remoteRequest
 }
 
 
