@@ -17,7 +17,7 @@
 
 
 	<parameterset name="parameter_benchmarkResultFile">
-		<parameter	name="nbCharOutput"		type="int">			100000000								</parameter>
+		<parameter	name="nbCharOutput"		type="int">			500000000								</parameter>
 		<parameter	name="nbIteration"		type="int">			40										</parameter>
 		<parameter	name="fileExec"			type="str">			./posixGlibcIO_sleep,
 																./posixGlibcAIO_sleep					</parameter>
