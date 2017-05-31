@@ -57,6 +57,7 @@ function processRemoteRequest
 	git pull
 	source ~/.bashrc
 	make mrproper
+make posixGlibcIO_sleep; ./posixGlibcIO_sleep
 #	remoteRequest
 }
 
