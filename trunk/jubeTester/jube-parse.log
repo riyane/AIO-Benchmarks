@@ -1,0 +1,52 @@
+[2017-05-31 12:56:32,385]:DEBUG: Parsing benchmarkInstrumentation_writeTime.xml
+[2017-05-31 12:56:32,407]:DEBUG:   --> Preprocess run 1 <--
+[2017-05-31 12:56:32,407]:DEBUG:   Remove invalid tags
+[2017-05-31 12:56:32,408]:DEBUG:     Available tags: 
+[2017-05-31 12:56:32,409]:DEBUG:   Remove invalid tags
+[2017-05-31 12:56:32,409]:DEBUG:     Available tags: 
+[2017-05-31 12:56:32,419]:DEBUG:   Read $JUBE_INCLUDE_PATH
+[2017-05-31 12:56:32,419]:DEBUG:   Preprocess xml tree
+[2017-05-31 12:56:32,419]:DEBUG:     path: .
+[2017-05-31 12:56:32,420]:DEBUG:   Remove invalid tags
+[2017-05-31 12:56:32,420]:DEBUG:     Available tags: 
+[2017-05-31 12:56:32,423]:DEBUG:   Preprocess done
+[2017-05-31 12:56:32,423]:DEBUG:   Parsing <parameterset name="parameter">
+[2017-05-31 12:56:32,425]:DEBUG:   Parsing <parameterset name="parameter_benchmarkResultFile">
+[2017-05-31 12:56:32,425]:DEBUG:   Parsing <parameterset name="parameter_variableDim_nbIteration">
+[2017-05-31 12:56:32,425]:DEBUG:   Parsing <parameterset name="parameter_variableDim_nbCharOutput">
+[2017-05-31 12:56:32,426]:DEBUG:   Preprocess benchmark xml tree
+[2017-05-31 12:56:32,427]:DEBUG:   Parsing <step name="init_outputFile">
+[2017-05-31 12:56:32,429]:DEBUG:   Preprocess benchmark xml tree
+[2017-05-31 12:56:32,430]:DEBUG:   Parsing <step name="run_benchmark">
+[2017-05-31 12:56:32,431]:DEBUG:   Preprocess benchmark xml tree
+[2017-05-31 12:56:32,433]:DEBUG:   Parsing <step name="run_benchmark_row">
+[2017-05-31 12:56:32,433]:DEBUG:   Preprocess benchmark xml tree
+[2017-05-31 12:56:32,434]:DEBUG:   Parsing <step name="plotWriteTime">
+[2017-05-31 12:56:32,435]:DEBUG: Start consistency check
+[2017-05-31 12:56:32,435]:DEBUG: Create benchmark directory
+[2017-05-31 12:56:33,313]:DEBUG: Parsing benchmarkInstrumentation_writeTime.xml
+[2017-05-31 12:56:33,333]:DEBUG:   --> Preprocess run 1 <--
+[2017-05-31 12:56:33,333]:DEBUG:   Remove invalid tags
+[2017-05-31 12:56:33,334]:DEBUG:     Available tags: 
+[2017-05-31 12:56:33,335]:DEBUG:   Remove invalid tags
+[2017-05-31 12:56:33,335]:DEBUG:     Available tags: 
+[2017-05-31 12:56:33,344]:DEBUG:   Read $JUBE_INCLUDE_PATH
+[2017-05-31 12:56:33,345]:DEBUG:   Preprocess xml tree
+[2017-05-31 12:56:33,345]:DEBUG:     path: .
+[2017-05-31 12:56:33,346]:DEBUG:   Remove invalid tags
+[2017-05-31 12:56:33,346]:DEBUG:     Available tags: 
+[2017-05-31 12:56:33,348]:DEBUG:   Preprocess done
+[2017-05-31 12:56:33,348]:DEBUG:   Parsing <parameterset name="parameter">
+[2017-05-31 12:56:33,350]:DEBUG:   Parsing <parameterset name="parameter_benchmarkResultFile">
+[2017-05-31 12:56:33,350]:DEBUG:   Parsing <parameterset name="parameter_variableDim_nbIteration">
+[2017-05-31 12:56:33,351]:DEBUG:   Parsing <parameterset name="parameter_variableDim_nbCharOutput">
+[2017-05-31 12:56:33,351]:DEBUG:   Preprocess benchmark xml tree
+[2017-05-31 12:56:33,352]:DEBUG:   Parsing <step name="init_outputFile">
+[2017-05-31 12:56:33,353]:DEBUG:   Preprocess benchmark xml tree
+[2017-05-31 12:56:33,354]:DEBUG:   Parsing <step name="run_benchmark">
+[2017-05-31 12:56:33,354]:DEBUG:   Preprocess benchmark xml tree
+[2017-05-31 12:56:33,355]:DEBUG:   Parsing <step name="run_benchmark_row">
+[2017-05-31 12:56:33,356]:DEBUG:   Preprocess benchmark xml tree
+[2017-05-31 12:56:33,357]:DEBUG:   Parsing <step name="plotWriteTime">
+[2017-05-31 12:56:33,358]:DEBUG: Start consistency check
+[2017-05-31 12:56:33,358]:DEBUG: Create benchmark directory

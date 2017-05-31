@@ -1,0 +1,15 @@
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Pattern name                    : ../../../../.././posixGlibcIO_sleep
+Nb iteration                    : 2
+Nb MPI-loop thread              : 5
+Computation time (per iteration): 0.000000 (seconds)
+Nb output char                  : 500000000
+Nb IO devices                   : 1
+Nb processors                   : 2
+Output file                     : ../../../../../../resource/ioFiles/defaultJube
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+>>>>>>> Beginning

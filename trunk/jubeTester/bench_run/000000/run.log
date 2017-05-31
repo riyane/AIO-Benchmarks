@@ -1,0 +1,126 @@
+[2017-05-31 12:56:32,452]:DEBUG: Create initial workpackages
+[2017-05-31 12:56:32,513]:DEBUG: Store initial workpackage information
+[2017-05-31 12:56:32,521]:DEBUG: Start benchmark run
+[2017-05-31 12:56:32,522]:INFO: ######################################################################
+[2017-05-31 12:56:32,522]:INFO: # benchmark: init_outputFile
+[2017-05-31 12:56:32,523]:INFO: #
+[2017-05-31 12:56:32,523]:INFO: # Creates and writes the header of the data files that will contain
+[2017-05-31 12:56:32,524]:INFO: # the benchmark pattern assessment results
+[2017-05-31 12:56:32,524]:INFO: ######################################################################
+[2017-05-31 12:56:32,526]:DEBUG: ----- init_outputFile ( iter:0 | id:0 | parents: ) -----
+[2017-05-31 12:56:32,545]:DEBUG:   available parameter:
+[2017-05-31 12:56:32,545]:DEBUG:          parameter                            | value                                   
+[2017-05-31 12:56:32,545]:DEBUG:          -------------------------------------+-----------------------------------------
+[2017-05-31 12:56:32,546]:DEBUG:          CubeDumpResFile                      | ../resource/tmpCubeDumpFile             
+[2017-05-31 12:56:32,546]:DEBUG:          HACK_PATH                            | ../../../../../                         
+[2017-05-31 12:56:32,546]:DEBUG:          benchmarkResultFile                  | ../resource/statistic//./posixGlibcIO_sl
+[2017-05-31 12:56:32,546]:DEBUG:                                               | eep_0.data                              
+[2017-05-31 12:56:32,546]:DEBUG:          computeTime                          | 0                                       
+[2017-05-31 12:56:32,546]:DEBUG:          cube_computeAndSaveLoopAndWaitEnd_id | 13                                      
+[2017-05-31 12:56:32,547]:DEBUG:          cube_computeAndSaveLoop_id           | 14                                      
+[2017-05-31 12:56:32,547]:DEBUG:          cube_save_id                         | 16                                      
+[2017-05-31 12:56:32,547]:DEBUG:          fileExec                             | ./posixGlibcIO_sleep                    
+[2017-05-31 12:56:32,547]:DEBUG:          fileOutput                           | ../resource/ioFiles/defaultJube         
+[2017-05-31 12:56:32,547]:DEBUG:          filePathStatistic                    | ../resource/statistic/                  
+[2017-05-31 12:56:32,547]:DEBUG:          fileScriptParseCubeDumpRes           | ./srcPlot/mainParseCubeDumpResFile.py   
+[2017-05-31 12:56:32,548]:DEBUG:          fileScriptPlot                       | ./srcPlot/mainPlot.py                   
+[2017-05-31 12:56:32,548]:DEBUG:          jube_benchmark_home                  | /home/kassuskley/Desktop/khedma/Programm
+[2017-05-31 12:56:32,548]:DEBUG:                                               | ing/WorkspaceInternshipJulich/AIO-      
+[2017-05-31 12:56:32,548]:DEBUG:                                               | Benchmarks/trunk/jubeTester             
+[2017-05-31 12:56:32,548]:DEBUG:          jube_benchmark_id                    | 0                                       
+[2017-05-31 12:56:32,548]:DEBUG:          jube_benchmark_name                  | init_outputFile                         
+[2017-05-31 12:56:32,549]:DEBUG:          jube_benchmark_padid                 | 000000                                  
+[2017-05-31 12:56:32,549]:DEBUG:          jube_benchmark_rundir                | /home/kassuskley/Desktop/khedma/Programm
+[2017-05-31 12:56:32,549]:DEBUG:                                               | ing/WorkspaceInternshipJulich/AIO-Benchm
+[2017-05-31 12:56:32,549]:DEBUG:                                               | arks/trunk/jubeTester/bench_run/000000  
+[2017-05-31 12:56:32,549]:DEBUG:          jube_benchmark_start                 | 2017-05-31T12:56:32                     
+[2017-05-31 12:56:32,550]:DEBUG:          jube_step_iterations                 | 1                                       
+[2017-05-31 12:56:32,550]:DEBUG:          jube_step_name                       | init_outputFile                         
+[2017-05-31 12:56:32,550]:DEBUG:          jube_wp_abspath                      | /home/kassuskley/Desktop/khedma/Programm
+[2017-05-31 12:56:32,550]:DEBUG:                                               | ing/WorkspaceInternshipJulich/AIO-Benchm
+[2017-05-31 12:56:32,550]:DEBUG:                                               | arks/trunk/jubeTester/bench_run/000000/0
+[2017-05-31 12:56:32,551]:DEBUG:                                               | 00000_init_outputFile/work              
+[2017-05-31 12:56:32,551]:DEBUG:          jube_wp_envlist                      |                                         
+[2017-05-31 12:56:32,551]:DEBUG:          jube_wp_envstr                       |                                         
+[2017-05-31 12:56:32,551]:DEBUG:          jube_wp_id                           | 0                                       
+[2017-05-31 12:56:32,551]:DEBUG:          jube_wp_iteration                    | 0                                       
+[2017-05-31 12:56:32,551]:DEBUG:          jube_wp_padid                        | 000000                                  
+[2017-05-31 12:56:32,552]:DEBUG:          jube_wp_relpath                      | bench_run/000000/000000_init_outputFile/
+[2017-05-31 12:56:32,552]:DEBUG:                                               | work                                    
+[2017-05-31 12:56:32,552]:DEBUG:          nbIoDevice                           | 1                                       
+[2017-05-31 12:56:32,552]:DEBUG:          nbProcessor                          | 2                                       
+[2017-05-31 12:56:32,555]:DEBUG: >>> echo											>  ../../../../../../resource/statistic//./posixGlibcIO_sleep_0.data
+[2017-05-31 12:56:32,555]:DEBUG:     stdout: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stdout
+[2017-05-31 12:56:32,555]:DEBUG:     stderr: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stderr
+[2017-05-31 12:56:32,578]:DEBUG: >>> echo "################################"			>> ../../../../../../resource/statistic//./posixGlibcIO_sleep_0.data
+[2017-05-31 12:56:32,579]:DEBUG:     stdout: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stdout
+[2017-05-31 12:56:32,579]:DEBUG:     stderr: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stderr
+[2017-05-31 12:56:32,599]:DEBUG: >>> echo "#Benchmark pattern info:"					>> ../../../../../../resource/statistic//./posixGlibcIO_sleep_0.data
+[2017-05-31 12:56:32,599]:DEBUG:     stdout: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stdout
+[2017-05-31 12:56:32,600]:DEBUG:     stderr: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stderr
+[2017-05-31 12:56:32,619]:DEBUG: >>> echo "################################"			>> ../../../../../../resource/statistic//./posixGlibcIO_sleep_0.data
+[2017-05-31 12:56:32,620]:DEBUG:     stdout: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stdout
+[2017-05-31 12:56:32,620]:DEBUG:     stderr: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stderr
+[2017-05-31 12:56:32,636]:DEBUG: >>> echo ./posixGlibcIO_sleep								>> ../../../../../../resource/statistic//./posixGlibcIO_sleep_0.data
+[2017-05-31 12:56:32,636]:DEBUG:     stdout: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stdout
+[2017-05-31 12:56:32,636]:DEBUG:     stderr: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stderr
+[2017-05-31 12:56:32,651]:DEBUG: >>> echo "################################"			>> ../../../../../../resource/statistic//./posixGlibcIO_sleep_0.data
+[2017-05-31 12:56:32,651]:DEBUG:     stdout: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stdout
+[2017-05-31 12:56:32,651]:DEBUG:     stderr: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stderr
+[2017-05-31 12:56:32,666]:DEBUG: >>> echo "#Fixed dim and values:"					>> ../../../../../../resource/statistic//./posixGlibcIO_sleep_0.data
+[2017-05-31 12:56:32,668]:DEBUG:     stdout: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stdout
+[2017-05-31 12:56:32,668]:DEBUG:     stderr: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stderr
+[2017-05-31 12:56:32,685]:DEBUG: >>> echo "################################"			>> ../../../../../../resource/statistic//./posixGlibcIO_sleep_0.data
+[2017-05-31 12:56:32,685]:DEBUG:     stdout: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stdout
+[2017-05-31 12:56:32,685]:DEBUG:     stderr: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stderr
+[2017-05-31 12:56:32,699]:DEBUG: >>> echo "computeTime," 0	 			>> ../../../../../../resource/statistic//./posixGlibcIO_sleep_0.data
+[2017-05-31 12:56:32,700]:DEBUG:     stdout: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stdout
+[2017-05-31 12:56:32,700]:DEBUG:     stderr: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stderr
+[2017-05-31 12:56:32,717]:DEBUG: >>> echo "################################"			>> ../../../../../../resource/statistic//./posixGlibcIO_sleep_0.data
+[2017-05-31 12:56:32,718]:DEBUG:     stdout: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stdout
+[2017-05-31 12:56:32,718]:DEBUG:     stderr: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stderr
+[2017-05-31 12:56:32,734]:DEBUG: >>> echo "#Variable dim:"							>> ../../../../../../resource/statistic//./posixGlibcIO_sleep_0.data
+[2017-05-31 12:56:32,735]:DEBUG:     stdout: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stdout
+[2017-05-31 12:56:32,735]:DEBUG:     stderr: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stderr
+[2017-05-31 12:56:32,752]:DEBUG: >>> echo "################################"			>> ../../../../../../resource/statistic//./posixGlibcIO_sleep_0.data
+[2017-05-31 12:56:32,752]:DEBUG:     stdout: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stdout
+[2017-05-31 12:56:32,752]:DEBUG:     stderr: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stderr
+[2017-05-31 12:56:32,770]:DEBUG: >>> echo "nbIteration,nbCharOutput"					>> ../../../../../../resource/statistic//./posixGlibcIO_sleep_0.data
+[2017-05-31 12:56:32,770]:DEBUG:     stdout: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stdout
+[2017-05-31 12:56:32,770]:DEBUG:     stderr: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stderr
+[2017-05-31 12:56:32,793]:DEBUG: >>> echo "################################"			>> ../../../../../../resource/statistic//./posixGlibcIO_sleep_0.data
+[2017-05-31 12:56:32,794]:DEBUG:     stdout: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stdout
+[2017-05-31 12:56:32,794]:DEBUG:     stderr: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stderr
+[2017-05-31 12:56:32,808]:DEBUG: >>> echo "#Result dim:"								>> ../../../../../../resource/statistic//./posixGlibcIO_sleep_0.data
+[2017-05-31 12:56:32,809]:DEBUG:     stdout: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stdout
+[2017-05-31 12:56:32,809]:DEBUG:     stderr: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stderr
+[2017-05-31 12:56:32,828]:DEBUG: >>> echo "################################"			>> ../../../../../../resource/statistic//./posixGlibcIO_sleep_0.data
+[2017-05-31 12:56:32,828]:DEBUG:     stdout: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stdout
+[2017-05-31 12:56:32,829]:DEBUG:     stderr: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stderr
+[2017-05-31 12:56:32,844]:DEBUG: >>> echo "save time / nb Iteration"		>> ../../../../../../resource/statistic//./posixGlibcIO_sleep_0.data
+[2017-05-31 12:56:32,844]:DEBUG:     stdout: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stdout
+[2017-05-31 12:56:32,845]:DEBUG:     stderr: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stderr
+[2017-05-31 12:56:32,858]:DEBUG: >>> echo "################################"			>> ../../../../../../resource/statistic//./posixGlibcIO_sleep_0.data
+[2017-05-31 12:56:32,859]:DEBUG:     stdout: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stdout
+[2017-05-31 12:56:32,859]:DEBUG:     stderr: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stderr
+[2017-05-31 12:56:32,874]:DEBUG: >>> echo "#Data:"									>> ../../../../../../resource/statistic//./posixGlibcIO_sleep_0.data
+[2017-05-31 12:56:32,875]:DEBUG:     stdout: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stdout
+[2017-05-31 12:56:32,875]:DEBUG:     stderr: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stderr
+[2017-05-31 12:56:32,891]:DEBUG: >>> echo "################################"			>> ../../../../../../resource/statistic//./posixGlibcIO_sleep_0.data
+[2017-05-31 12:56:32,891]:DEBUG:     stdout: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stdout
+[2017-05-31 12:56:32,891]:DEBUG:     stderr: /home/kassuskley/Desktop/khedma/Programming/WorkspaceInternshipJulich/AIO-Benchmarks/trunk/jubeTester/bench_run/000000/000000_init_outputFile/work/stderr
+[2017-05-31 12:56:32,927]:DEBUG: Create new workpackages for workpackage init_outputFile(0)
+[2017-05-31 12:56:32,928]:DEBUG:   0 new workpackages created
+[2017-05-31 12:56:32,930]:INFO:          stepname | all | open | wait | error | done
+[2017-05-31 12:56:32,930]:INFO:   ----------------+-----+------+------+-------+-----
+[2017-05-31 12:56:32,930]:INFO:   init_outputFile |   1 |    0 |    0 |     0 |    1
+[2017-05-31 12:56:32,931]:INFO: 
+[2017-05-31 12:56:32,931]:INFO: >>>> Benchmark information and further useful commands:
+[2017-05-31 12:56:32,931]:INFO: >>>>       id: 0
+[2017-05-31 12:56:32,931]:INFO: >>>>   handle: bench_run
+[2017-05-31 12:56:32,932]:INFO: >>>>      dir: bench_run/000000
+[2017-05-31 12:56:32,941]:INFO: >>>>  analyse: jube analyse bench_run --id 0
+[2017-05-31 12:56:32,941]:INFO: >>>>   result: jube result bench_run --id 0
+[2017-05-31 12:56:32,942]:INFO: >>>>     info: jube info bench_run --id 0
+[2017-05-31 12:56:32,942]:INFO: >>>>      log: jube log bench_run --id 0
+[2017-05-31 12:56:32,942]:INFO: ######################################################################

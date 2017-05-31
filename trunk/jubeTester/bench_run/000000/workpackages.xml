@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workpackages>
+  <workpackage id="0">
+    <step iteration="0">init_outputFile</step>
+    <parameterset>
+      <parameter mode="text" name="HACK_PATH" separator="," type="string">../../../../../</parameter>
+      <parameter mode="text" name="fileScriptParseCubeDumpRes" separator="," type="string">./srcPlot/mainParseCubeDumpResFile.py</parameter>
+      <parameter mode="text" name="filePathStatistic" separator="," type="string">../resource/statistic/</parameter>
+      <parameter mode="text" name="nbProcessor" separator="," type="string">2</parameter>
+      <parameter mode="text" name="fileScriptPlot" separator="," type="string">./srcPlot/mainPlot.py</parameter>
+      <parameter mode="text" name="cube_save_id" separator="," type="string">16</parameter>
+      <parameter mode="text" name="CubeDumpResFile" separator="," type="string">../resource/tmpCubeDumpFile</parameter>
+      <parameter mode="text" name="fileOutput" separator="," type="string">../resource/ioFiles/defaultJube</parameter>
+      <parameter mode="text" name="nbIoDevice" separator="," type="string">1</parameter>
+      <parameter mode="text" name="benchmarkResultFile" selection="../resource/statistic//./posixGlibcIO_sleep_0.data" separator="," type="str">${filePathStatistic}/${fileExec}_${computeTime}.data</parameter>
+      <parameter mode="text" name="cube_computeAndSaveLoop_id" separator="," type="string">14</parameter>
+      <parameter mode="text" name="fileExec" separator="," type="str">./posixGlibcIO_sleep</parameter>
+      <parameter mode="text" name="computeTime" separator="," type="float">0</parameter>
+      <parameter mode="text" name="cube_computeAndSaveLoopAndWaitEnd_id" separator="," type="string">13</parameter>
+    </parameterset>
+    <iteration_siblings>0</iteration_siblings>
+    <environment>
+      <env name="SHLVL">'23'</env>
+    </environment>
+  </workpackage>
+</workpackages>
