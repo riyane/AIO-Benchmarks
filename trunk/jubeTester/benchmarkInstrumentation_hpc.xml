@@ -32,7 +32,7 @@
 																0.00001,
 																0.00003, 0.00006, 0.00008, 0.0001, 0.0003, 0.0006, 0.0008,
 																1, 2, 3, 4, 5							</parameter>
-		<parameter	name="nbIoDevice">							1										</parameter>
+		<parameter	name="nbIoDevice">							1, 2, 3, 4								</parameter>
 	</parameterset>
 
 
@@ -59,7 +59,7 @@
 			<do>echo "################################"			>> $HACK_PATH${benchmarkResultFile}	</do>
 			<do>echo "#Variable dim:"							>> $HACK_PATH${benchmarkResultFile}	</do>
 			<do>echo "################################"			>> $HACK_PATH${benchmarkResultFile}	</do>
-			<do>echo "computeTime, nbIoDevice"		 			>> $HACK_PATH${benchmarkResultFile}	</do>
+			<do>echo "computeTime,nbIoDevice"		 			>> $HACK_PATH${benchmarkResultFile}	</do>
 <!-- TODO add the dimension (+ in the python mainPlot.py) -->
 			<do>echo "################################"			>> $HACK_PATH${benchmarkResultFile}	</do>
 			<do>echo "#Result dim:"								>> $HACK_PATH${benchmarkResultFile}	</do>
@@ -93,7 +93,7 @@
 									-logger			m
 			</do>
 			<do> rm $HACK_PATH$fileOutput* </do>
-			<do> echo ${computeTime}", "${nbIteration} >> $HACK_PATH${benchmarkResultFile} </do>
+			<do> echo ${computeTime}", "${nbIoDevice} >> $HACK_PATH${benchmarkResultFile} </do>
 			<do> cube_dump scorep-*/profile.cubex -m time -z incl -c ${cube_computeAndSaveLoop_id} -c ${cube_computeAndSaveLoopAndWaitEnd_id}	\
 				> $HACK_PATH${CubeDumpResFile}
 			</do>

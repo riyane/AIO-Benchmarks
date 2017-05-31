@@ -44,6 +44,7 @@ class Data():
 # -----------------------------
     def isVariableDim(self, variableDimName):
         for v in self._variableDimName:
+            print "+++++++++ " + v
             if (v == variableDimName):
                 return True
         return False

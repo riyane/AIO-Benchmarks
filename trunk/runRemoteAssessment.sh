@@ -59,6 +59,7 @@ function processRemoteRequest
 {
 	cd ${remote_pathRun}
 	git pull
+	rm ../resource/statistic/*
 	source ~/.bashrc
 	make mrproper
 	remoteRequest
