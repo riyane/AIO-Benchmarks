@@ -11,8 +11,8 @@
 		<parameter	name="fileScriptPlot">						./srcPlot/mainPlot.py					</parameter>
 		<parameter	name="fileScriptParseCubeDumpRes">			./srcPlot/mainParseCubeDumpResFile.py	</parameter>
 		<parameter	name="nbProcessor">							2										</parameter>
-		<parameter	name="cube_computeAndSaveLoop_id">			15										</parameter>
-		<parameter	name="cube_computeAndSaveLoopAndWaitEnd_id">14										</parameter>
+		<parameter	name="cube_computeAndSaveLoop_id">			12										</parameter>
+		<parameter	name="cube_computeAndSaveLoopAndWaitEnd_id">11										</parameter>
 	</parameterset>
 
 

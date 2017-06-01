@@ -71,8 +71,8 @@ def printHelp(progName):
     print "\t"+ ARGUMENT_LOG_X                      + "\t\tTo use a logarithmic scale for the abscissa plot"
     print "\t"+ ARGUMENT_LOG_Y                      + "\t\tTo use a logarithmic scale for the ordinate plot"
     print "\t"+ ARGUMENT_RESULT_DIM_TEXT            + "<text>\tTo set the text to print as a result dimension"
-    print "\t"+ ARGUMENT_ALL_PROJECTION_IN_1_FRAME  + "\t\t\tTo print all the different projections in a single frame"
-    print "\t"+ ARGUMENT_MULTIPLE_TRY               + "\t\t\tTo consider the data as average of multpile try (inly available with 2d plots)"
+    print "\t"+ ARGUMENT_ALL_PROJECTION_IN_1_FRAME  + "\tTo print all the different projections in a single frame"
+    print "\t"+ ARGUMENT_MULTIPLE_TRY               + "\t\tTo consider the data as average of multpile try (inly available with 2d plots)"
     print "\t"+ ARGUMENT_INPUT_HELP                 + "\t\t\tTo print the current help"
     exit(2)
 
@@ -152,8 +152,8 @@ def projectionPlotHeader(data, dataCompare, dimProjectionName, dimProjectionValu
     ax = plt.subplot(111)
     box = ax.get_position()
     ax.set_position([box.x0, box.y0, box.width * 0.8, box.height])
-#    ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
-    ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.06),fancybox=True, shadow=True, ncol=3)
+    ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+#    ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.06),fancybox=True, shadow=True, ncol=3)
     plt.grid()
     plt.show(block=False)
 
