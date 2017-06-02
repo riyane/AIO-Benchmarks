@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;AIO-Benchmarks/trunk/srcBenchmark/unitTestAioGlibc&apos;" deleteContents="false" description="Delete resource &apos;AIO-Benchmarks/trunk/srcBenchmark/unitTestAioGlibc&apos;" element1="/AIO-Benchmarks/trunk/srcBenchmark/unitTestAioGlibc" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1493810092851"/>
+</session>

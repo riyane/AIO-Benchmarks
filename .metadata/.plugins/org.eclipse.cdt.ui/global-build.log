@@ -1,0 +1,69 @@
+14:28:07 **** Build of configuration Debug for project AIO-Benchmarks ****
+make AIO_make 
+make: *** No rule to make target 'AIO_make'.  Stop.
+14:29:15 **** Incremental Build of configuration Debug for project AIO-Benchmarks ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+14:29:16 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../testWrite/util.cc
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testWrite/util.d" -MT"testWrite/util.o" -o "testWrite/util.o" "../testWrite/util.cc"
+../testWrite/util.cc: In function ‘void getTime(char*)’:
+../testWrite/util.cc:101:2: error: ‘time_t’ is not a member of ‘std’
+testWrite/subdir.mk:21: recipe for target 'testWrite/util.o' failed
+  std::time_t time = std::time(nullptr);
+  ^~~
+../testWrite/util.cc:101:2: note: suggested alternative:
+In file included from /usr/include/sys/types.h:132:0,
+                 from /usr/include/stdlib.h:314,
+                 from /usr/include/c++/6.3.1/cstdlib:75,
+                 from /usr/include/c++/6.3.1/stdlib.h:36,
+                 from ../testWrite/util.h:5,
+                 from ../testWrite/util.cc:1:
+/usr/include/time.h:75:18: note:   ‘time_t’
+ typedef __time_t time_t;
+                  ^~~~~~
+../testWrite/util.cc:102:24: error: ‘asctime’ is not a member of ‘std’
+  sprintf(output, "%s", std::asctime(std::localtime(&time)));
+                        ^~~
+../testWrite/util.cc:102:37: error: ‘localtime’ is not a member of ‘std’
+  sprintf(output, "%s", std::asctime(std::localtime(&time)));
+                                     ^~~
+../testWrite/util.cc:102:53: error: ‘time’ was not declared in this scope
+  sprintf(output, "%s", std::asctime(std::localtime(&time)));
+                                                     ^~~~
+make: *** [testWrite/util.o] Error 1
+17:21:03 **** Build of configuration Debug for project AIO-Benchmarks ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+17:21:05 **** Build of configuration Debug for project test ****
+make all 
+Building file: ../testWrite/util.cc
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testWrite/util.d" -MT"testWrite/util.o" -o "testWrite/util.o" "../testWrite/util.cc"
+../testWrite/util.cc: In function ‘void getTime(char*)’:
+../testWrite/util.cc:101:2: error: ‘time_t’ is not a member of ‘std’
+testWrite/subdir.mk:21: recipe for target 'testWrite/util.o' failed
+  std::time_t time = std::time(nullptr);
+  ^~~
+../testWrite/util.cc:101:2: note: suggested alternative:
+In file included from /usr/include/sys/types.h:132:0,
+                 from /usr/include/stdlib.h:314,
+                 from /usr/include/c++/6.3.1/cstdlib:75,
+                 from /usr/include/c++/6.3.1/stdlib.h:36,
+                 from ../testWrite/util.h:5,
+                 from ../testWrite/util.cc:1:
+/usr/include/time.h:75:18: note:   ‘time_t’
+ typedef __time_t time_t;
+                  ^~~~~~
+../testWrite/util.cc:102:24: error: ‘asctime’ is not a member of ‘std’
+  sprintf(output, "%s", std::asctime(std::localtime(&time)));
+                        ^~~
+../testWrite/util.cc:102:37: error: ‘localtime’ is not a member of ‘std’
+  sprintf(output, "%s", std::asctime(std::localtime(&time)));
+                                     ^~~
+../testWrite/util.cc:102:53: error: ‘time’ was not declared in this scope
+  sprintf(output, "%s", std::asctime(std::localtime(&time)));
+                                                     ^~~~
+make: *** [testWrite/util.o] Error 1

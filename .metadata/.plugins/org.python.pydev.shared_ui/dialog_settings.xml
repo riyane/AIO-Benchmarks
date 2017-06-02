@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.python.pydev.plugin.preferences.CheckDefaultPreferencesDialog">
+		<item value="496" key="width"/>
+		<item value="438" key="x"/>
+		<item value="37" key="y"/>
+		<item value="535" key="height"/>
+	</section>
+	<section name="com.python.pydev.actions.QuickShowOutline">
+		<item value="480" key="width"/>
+		<item value="446" key="x"/>
+		<item value="77" key="y"/>
+		<item value="474" key="height"/>
+	</section>
+</section>

@@ -1,0 +1,5 @@
+
+May 31, 2017 11:47:16.06 NEW SESSION
+May 31, 2017 11:47:16.06 which: no mozilla in (/usr/lib64/ccache:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/kassuskley/.cube-4.3.4/build-backend:/home/kassuskley/.scorep-4.0-TRY_JSC_orphaned_pthreads/_build/build-backend:/home/kassuskley/.boost_1_63_0/:/usr/lib64/openmpi/bin/:/usr/local/bin/:/home/kassuskley/.local/bin:/home/kassuskley/bin)
+May 31, 2017 11:47:16.06 which: no netscape in (/usr/lib64/ccache:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/kassuskley/.cube-4.3.4/build-backend:/home/kassuskley/.scorep-4.0-TRY_JSC_orphaned_pthreads/_build/build-backend:/home/kassuskley/.boost_1_63_0/:/usr/lib64/openmpi/bin/:/usr/local/bin/:/home/kassuskley/.local/bin:/home/kassuskley/bin)
+May 31, 2017 11:47:16.08 /usr/bin/firefox

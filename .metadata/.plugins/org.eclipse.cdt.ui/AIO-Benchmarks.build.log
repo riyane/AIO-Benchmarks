@@ -1,0 +1,6 @@
+17:21:03 **** Build of configuration Debug for project AIO-Benchmarks ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+
+17:21:03 Build Finished (took 157ms)
+
